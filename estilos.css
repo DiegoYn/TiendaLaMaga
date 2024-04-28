@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+#navbarNav{
+  font-weight: 600;
+text-shadow: 0.2px 0px 0px #000000;
+}
+#logomarca{
+    padding-bottom:20px;
+    
+}
+.h-2{
+  font-size:30px;
+  font-weight:700;
+  color:#000;
+  font-family:inherit;
+}
+.fix-footer{
+  min-height:70vh;
+}
+.centrado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+#Marca{
+  font-size: 60px;
+  font-family: 'Sacramento', cursive;
+  text-shadow: 1px 0px 1px #000000;
+}
+.sub-titulo{
+  max-width: 950px;
+  margin-top: 1rem;
+}
+.slide{
+    margin-top: 10px;
+}
+.slide img {
+    height: 50vh;
+    object-fit: cover;
+}
+@media(min-width: 1200px) and (max-width: 1400px) {
+    .col-md-6 {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
+  }
+  @media(min-width: 1336px) {
+    .col-md-5 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  
+  .fixed-image {
+    width: 284px; /* Ancho fijo deseado */
+    height: 300px; /* Alto fijo deseado */
+    object-fit: cover; /* Ajustar la imagen manteniendo la proporción y cubriendo el área */
+  }
+  .navbar{
+    padding: 0;
+  }
+  .custom-search-bar{
+    max-width: 696px;
+    }
+    @media (min-width: 1000px) and (max-width: 1400px) {
+      #googleMap {
+          height: 300px; /* Cambia el tamaño del mapa para pantallas medianas */
+      }
+    
+  }
+  @media (min-width: 1401px) {
+      #googleMap {
+          height: 450px; /* Mantén el tamaño del mapa para pantallas grandes */
+      }
+ }
+  @media screen and (max-width:767px){
+      #Marca{
+  font-size: 30px;
+  font-family: 'Sacramento', cursive;
+}
+.h-2{ 
+  font-size: 20px;
+}
+.sub-titulo{
+  font-size: 14px;
+}
+.contenedor-carousel{
+  min-height: 300px;
+}      
+  }
+  
+@media screen and (max-width:420px){
+      #logomarca{
+  width:0px;
+  height:0px;
+}
+#varita{
+    width:40px;
+  height:40px;
+}
+.caja h1{
+  margin-top: 0px !important;
+}
+.caja img{
+        height: 100px !important; 
+        width: 100px !important; 
+    }
+  .objeto p{  
+    font-size: 20px;
+    max-height: 60px;
+  }   
+ }
+ .title{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:3rem;
+  }
+  .h-2{ 
+    margin:20px;
+    }
+ @media screen and (max-width:1350px){
+  
+}
+.caja{
+        width: 100%;
+        min-height: 300px;
+        margin-top:100px;
+        margin-bottom:50px;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .caja .row{
+        margin:30px;
+    }
+    .caja h1{
+        color: black;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom:10px;
+    }
+    .caja img{
+        height: 200px;
+        width: 200px;
+    }
+    #sellos{
+  width: 100%;
+  min-height: 500px;
+  margin-top:100px;
+  margin-bottom:50px;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
+.contenedor{
+  min-height: 200px;
+  width: 100%;
+  overflow:hidden;
+  margin-bottom:50px;
+}
+
+#sellos h1{
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+#ir-sellos{
+  height: 50px;
+  background-color:#75B798;
+  border-radius: 10px;
+  padding: 0 30px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  text-shadow:0px 0px 1px #000000;
+  
+}
+.objetos-footer{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  
+}
+.objeto{
+  width: 100%;
+  max-height:500px ;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.objeto img{
+  max-width: 60px;
+  max-height: 48px;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+}
+
+.titulos{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.titulos p{
+  width: 100%;
+  max-height:500px ;
+  font-size: 25px;
+}
+.container-retiros{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ 
+
+}
+.formulario-domicilio{
+  display: flex;
+  align-items: center;
+
+}
+.formulario-domicilio form{
+  max-width: 1000px;
+}

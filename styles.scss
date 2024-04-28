@@ -1,0 +1,15 @@
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+$theme-colors: (
+  "primary": $green-300,
+  "secondary": $green-200,
+  "success": $cyan-300,
+  "info": $cyan-100,
+  "warning":$green-500,
+  "light":$cyan-200,
+);
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
